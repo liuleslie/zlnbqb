@@ -1,0 +1,18 @@
+body {
+	background-color:yellow;
+}
+
+.textbox {
+	border: 1px black solid;
+
+	font-size: 25px;
+	width: 75vw;
+	height: 33vh;
+	margin: 0 auto 4em auto;
+	padding: 5px;
+	overflow: scroll;
+}
+
+.textbox p::selection {
+	background-color: white;
+}
